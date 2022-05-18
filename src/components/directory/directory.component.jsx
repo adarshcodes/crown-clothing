@@ -1,4 +1,4 @@
-import "./categories.styles.scss";
+import "./directory.styles.scss";
 import CategoryItem from "../category-items/category-item.component";
 
 const Directory = () => {
@@ -30,7 +30,7 @@ const Directory = () => {
 		},
 	];
 	return (
-		<div className="categories-container">
+		<div className="directory-container">
 			{categories.map((category) => (
 				<CategoryItem key={category.id} category={category} />
 			))}
